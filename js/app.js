@@ -1,12 +1,10 @@
 const dico = ["gluten", "josephine", "chouquette", "bigasslover", "hormones", "tromperie", "violoncelle", "faucille", "mayonnaise", "congolexicomatisation"];
 let wordChoiced = dico[Math.round(Math.random() * 9)];
-console.log(wordChoiced);
-
+console.log(wordChoiced + 'choix IA');
 let userLetter = prompt("Entre une lettre");
 
-for (let i = 0; i < wordChoiced.length; i++){
-	if(userLetter == wordChoiced[i]){
-		console.log(wordChoiced[i]);
-	} else { console.log("FAUX")}
-};
+while(userLetter != wordChoiced){
+
+	userLetter = prompt("recommancer");
+}
 
