@@ -2,13 +2,16 @@
 
 .container{
 	text-align: center;
-	background-color: #F2F2F2;
+	background-color: #336699;
+	margin-top: 20px;
+	border-radius: 5px;
 }
 .jeu{
 	text-align: center;
 }
 h1{
 	font-family: 'Poiret One';
+	color: #F2F2F2;
 }
 
 input, button{
@@ -24,6 +27,6 @@ input{
 	font-style: italic;
 }
 button{
-	background-color: orange;
+	background-color: #FF9900;
 	border: none; 
 }
