@@ -6,7 +6,9 @@
 	margin-top: 20px;
 	border-radius: 5px;
 }
-.jeu{
+#gamePlace{
+	width: 500px;
+	font-size: 30px;
 	text-align: center;
 }
 h1{
@@ -29,4 +31,9 @@ input{
 button{
 	background-color: #FF9900;
 	border: none; 
+}
+
+#newWord{
+	width: 100px;
+	background-color: #cc9999;
 }
